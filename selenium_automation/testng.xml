@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+  <test thread-count="5" name="MyTestResults">
+    <classes>
+      <class name="testNG.Fblogin2"/>
+      <class name="testNG.NewTest"/>
+      <class name="testNG.DataProviderSample"/>
+      
+      
+     <!--   control shift forward slash -->
+   <!--   if dont want that class to execute -->
+   
+      <class name="testNG.Prioritysample"/>
+      <class name="testNG.Annotationsample2"/>
+      <class name="testNG.Annotationone"/>
+      <class name="testNG.Fblogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
